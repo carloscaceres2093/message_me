@@ -10,8 +10,13 @@
   </head>
 
   <body>
-  	<%= render 'layouts/navigation' %>
+    <div class="ui small blue inverted menu">
+        <div class="ui container">
+        	<%= render 'layouts/navigation' %>
+        </div>
+    </div>
 	<div class="ui container">
+      <%= render 'layouts/messages' %>
     	<%= yield %>
     </div>
   </body>

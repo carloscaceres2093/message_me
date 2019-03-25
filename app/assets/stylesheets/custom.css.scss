@@ -2,9 +2,16 @@
 .chatbox {
 	height: 450px;
 }
-#p-title {
-	font-style: italic;
-}
+
 .list{
 	color: black;
+}
+#messages{
+	height: 15em;
+	overflow: auto;
+}
+.input{
+	button{
+		display: none;
+	}
 }
